@@ -1,0 +1,23 @@
+{
+  "interface": {
+    "displayName": "GBrain Workflows",
+    "shortDescription": "Conhecimento em ação",
+    "longDescription": "As 69 skills da árvore oficial do GBrain, com instruções originais e adaptação de execução para ChatGPT. Requer o conector GBrain instalado. Etapas de CLI e administração local dependem das capacidades disponíveis.",
+    "developerName": "Caio Siqueira",
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Consulte o GBrain e recapitule o contexto do meu projeto.",
+      "Salve esta ideia no GBrain com fonte e conexões.",
+      "Organize os resultados desta conversa usando EIIRP."
+    ],
+    "capabilities": []
+  },
+  "name": "gbrain-workflows",
+  "version": "0.2.0",
+  "description": "Workflows do GBrain adaptados para ChatGPT, usando o conector GBrain já instalado.",
+  "author": {
+    "name": "Caio Siqueira"
+  },
+  "keywords": [],
+  "skills": "./skills"
+}
