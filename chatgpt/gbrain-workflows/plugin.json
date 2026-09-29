@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gbrain-workflows",
+  "version": "0.1.0",
+  "description": "Workflows do GBrain adaptados para ChatGPT, usando o conector GBrain já instalado.",
+  "author": {
+    "name": "Caio Siqueira"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GBrain Workflows",
+        "shortDescription": "Conhecimento em ação",
+        "longDescription": "Consulte contexto, capture ideias, prepare briefings, faça leitura estratégica e organize entregas com o GBrain conectado. Requer o conector GBrain instalado; não inclui nem instala um servidor MCP.",
+        "developerName": "Caio Siqueira",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Consulte o GBrain e recapitule o contexto do meu projeto.",
+          "Salve esta ideia no GBrain com fonte e conexões.",
+          "Organize os resultados desta conversa usando EIIRP."
+        ]
+      }
+    }
+  }
+}
